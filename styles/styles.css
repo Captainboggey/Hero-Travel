@@ -45,47 +45,164 @@ nav {
 
 /* banner+ */
 
-.banner {
-    text-align: center;
+.banner-sec {
     background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
     background-repeat: no-repeat;
     background-position: center;
-
-
-    padding: 150px;
+    width: 1170px;
+    height: 500px;
     margin-top: 50px;
+    margin-left: 400px;
+    border-radius: 16px;
 
 
 }
 
+.banner {
 
+    border-radius: 16px;
+    border: 16px;
+    background: linear-gradient(180.00deg, rgba(19, 19, 24, 0.8), rgba(19, 19, 24, 0) 100%);
+    text-align: center;
+    padding-top: 100px;
+
+}
 
 .banner ul {
     list-style: none;
     display: flex;
-    gap: 24px;
     justify-content: center;
+    gap: 30px;
     border-radius: 8px;
-  
+    margin: 0px 90px 0px 90px;
     background: rgba(255, 255, 255, 0.3);
-    padding: 5px;
-    
+    padding: 10px 0px 10px 0px;
 
+}
+
+.banner ul li button {
+    border-radius: 8px;
+    padding: 16px;
+    background: rgb(255, 255, 255);
 }
 
 .banner ul li {
     border-radius: 8px;
-    padding: 16px ;
-			background: rgb(255, 255, 255);
-    
+    background: rgb(255, 255, 255);
+    padding: 20px;
 }
-.banner ul li button{
+
+.banner ul li ::placeholder {
+    color: rgba(19, 19, 24, 0.5);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.banner h1 {
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 64px;
+
+    font-weight: 800;
+}
+
+.banner p {
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.find {
     border-radius: 8px;
-    padding: 16px;
-			background: rgb(255, 255, 255);
+    padding: 14px 35px 14px 35px;
+    background: rgb(255, 84, 0);
+    border: 0;
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /* banner- */
+
+/* popular+ */
+.popular {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+}
+
+.popular-container h1 {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 40px;
+
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+
+.popular-container p {
+    color: rgba(19, 19, 24, 0.7);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.popular-container ul {
+    color: rgba(19, 19, 24, 0.7);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.popular-container button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 20px;
+
+    font-weight: 800;
+    border: 0;
+    margin-top: 20px;
+    padding: 13px;
+}
+
+.popular-img {
+    border-radius: 16px;
+}
+
+
+
+
+
+
+
+/* popular- */
 
 
 
@@ -104,8 +221,76 @@ nav {
 
     }
 
+    .page-interaction ul {
+        gap: 10px;
+    }
+
     .page-title {
         justify-content: center;
+    }
+
+    .banner-sec {
+        width: 100%;
+        height: 500px;
+        margin: 0;
+        padding: 0px;
+        align-items: center;
+
+
+    }
+
+    .banner ul {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+
+        margin: 5px 40px 10px 40px;
+    }
+
+    .banner {
+        padding: 0;
+        gap: 0;
+    }
+
+    .banner ul li {
+        padding: 14px;
+        width: 255px;
+
+    }
+
+    .banner h1 {
+        color: rgb(255, 255, 255);
+
+        font-family: Mulish;
+
+        font-size: 22px;
+
+        font-weight: 800;
+        padding-top: 20px;
+    }
+
+    .banner p {
+        color: rgb(255, 255, 255);
+
+        font-family: Mulish;
+
+        font-size: 14px;
+
+        font-weight: 400;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    .popular {
+        flex-direction: column;
+       padding: 5px;
+       margin: 0px;
+    }
+
+    .popular-img img  {
+        width: 335px;
+       padding: 25px;
+        height: 342px;
     }
 }
 
