@@ -1,0 +1,116 @@
+/* shared content+ */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+body {
+    font-family: "Mulish", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* shared content- */
+
+/* nav+ */
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.page-title {
+    display: flex;
+    gap: 5px;
+}
+
+.page-interaction ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+
+.page-title h1 {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.page-title span {
+    color: rgb(255, 84, 0);
+}
+
+.home {
+    color: rgb(255, 84, 0);
+}
+
+/* nav- */
+
+/* banner+ */
+
+.banner {
+    text-align: center;
+    background-image: url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+
+    padding: 150px;
+    margin-top: 50px;
+
+
+}
+
+
+
+.banner ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    border-radius: 8px;
+  
+    background: rgba(255, 255, 255, 0.3);
+    padding: 5px;
+    
+
+}
+
+.banner ul li {
+    border-radius: 8px;
+    padding: 16px ;
+			background: rgb(255, 255, 255);
+    
+}
+.banner ul li button{
+    border-radius: 8px;
+    padding: 16px;
+			background: rgb(255, 255, 255);
+}
+
+/* banner- */
+
+
+
+
+
+
+
+
+
+
+/* responsive small+ */
+
+@media screen and (max-width: 576px) {
+    nav {
+        flex-direction: column;
+
+    }
+
+    .page-title {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+/* responsive small- */
