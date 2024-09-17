@@ -208,6 +208,7 @@ nav {
     border-radius: 16px;
 }
 
+/* popular- */
 /* Destination+ */
 .Destination {
     padding-top: 50px;
@@ -280,7 +281,7 @@ nav {
     height: 286px;
     text-align: center;
     align-content: center;
-    height: 300px;
+
     color: rgb(255, 255, 255);
 
     font-family: Mulish;
@@ -297,7 +298,7 @@ nav {
     height: 286px;
     text-align: center;
     align-content: center;
-    height: 300px;
+
     color: rgb(255, 255, 255);
 
     font-family: Mulish;
@@ -315,9 +316,9 @@ nav {
     height: 286px;
     text-align: center;
     align-content: center;
-    height: 300px;
-    color: rgb(255, 255, 255);
 
+    color: rgb(255, 255, 255);
+    border-radius: 16px;
     font-family: Mulish;
 
     font-size: 28px;
@@ -339,7 +340,7 @@ nav {
     height: 300px;
     text-align: center;
     align-content: center;
-    height: 300px;
+
     color: rgb(255, 255, 255);
 
     font-family: Mulish;
@@ -356,7 +357,7 @@ nav {
     height: 300px;
     text-align: center;
     align-content: center;
-    height: 300px;
+
     color: rgb(255, 255, 255);
 
     font-family: Mulish;
@@ -375,13 +376,221 @@ nav {
 
 /* Destination- */
 
+/* why+ */
+.why {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.why h1 {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 40px;
+
+    font-weight: 800;
+}
+
+.why p {
+    color: rgba(19, 19, 24, 0.7);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.why-container {
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.container-1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.hotel {
+    width: 573px;
+    padding: 15px;
+    height: 284px;
+    box-sizing: border-box;
+
+    border: 1px solid rgba(251, 181, 99, 0.2);
+
+    border-radius: 16px;
+
+
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+    width: 573px;
+    height: 284px;
+    border: 1px solid rgba(41, 206, 246, 0.2);
+
+    border-radius: 16px;
+
+
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+
+    width: 573px;
+    height: 284px;
+
+    border: 1px solid rgba(233, 68, 68, 0.2);
+
+    border-radius: 16px;
+
+
+    background: rgba(233, 68, 68, 0.05);
+    padding: 15px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 15px;
+
+}
+
+
+/* why- */
+
+
+/* deal+ */
+.deal {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.deal h1 {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 40px;
+
+    font-weight: 800;
+}
+
+.deal p {
+    color: rgba(19, 19, 24, 0.7);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.deal-container {}
+
+.deal-img-1 {
+    background-image: url("/Images/Group\ 39.png");
+    width: 1170px;
+
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+
+}
+
+.deal-des-one {
+    width: 579px;
+    height: 389px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+   
+    align-content: center;
+    padding-left: 50px;
+    margin-left: 500px;
+
+
+
+
+}
+
+.deal-des-one h1 {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 24px;
+
+    font-weight: 800;
+}
+
+.deal-des-one p {
+    color: rgb(90, 90, 93);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.deal-des-one h2 {
+    color: rgb(255, 84, 0);
+
+    font-family: Mulish;
+
+    font-size: 20px;
+
+    font-weight: 800;
+}
+
+.book-now {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    width: 150px;
+    height: 52px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+}
+.deal-img-2{
+    background-image: url("/Images/Group\ 40.png");
+    width: 1170px;
+
+    height: 500px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.deal-des-two{
+    width: 579px;
+    height: 389px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 16px;
+    backdrop-filter: blur(5px);
+    background: rgba(255, 255, 255, 0.8);
+    /* text-align: left; */
+    align-content: center;
+    padding-left: 50px;
+    margin-left: 50px;
+
+}
+
+/* deal- */
 
 
 
 
 
 
-/* popular- */
+
 
 
 
@@ -516,31 +725,58 @@ nav {
         border-radius: 16px;
         background: rgba(19, 19, 24, 0.2), url(1);
     }
-    .north{
-        width: 335px;
-        height: 176px;
-        border-radius: 16px;
-        background: rgba(19, 19, 24, 0.2), url(1);
-    }
-    .kash{
-        width: 335px;
-        height: 176px;
-        border-radius: 16px;
-        background: rgba(19, 19, 24, 0.2), url(1);
-    }
-    .bangladesh{
-        width: 335px;
-        height: 176px;
-        border-radius: 16px;
-        background: rgba(19, 19, 24, 0.2), url(1);
-    }
-    .bandarban{
+
+    .north {
         width: 335px;
         height: 176px;
         border-radius: 16px;
         background: rgba(19, 19, 24, 0.2), url(1);
     }
 
+    .kash {
+        width: 335px;
+
+        background-size: 335px 176px;
+        height: 176px;
+        border-radius: 16px;
+        background: rgba(19, 19, 24, 0.2), url(1);
+    }
+
+    .bangladesh {
+        width: 335px;
+        height: 176px;
+        border-radius: 16px;
+        background: rgba(19, 19, 24, 0.2), url(1);
+    }
+
+    .bandarban {
+        width: 335px;
+        height: 176px;
+        border-radius: 16px;
+        background: rgba(19, 19, 24, 0.2), url(1);
+    }
+
+    .container-1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hotel {
+        width: 335px;
+        height: 289px;
+
+    }
+
+    .service {
+        width: 335px;
+        height: 289px;
+    }
+
+    .price {
+        width: 335px;
+        height: 289px;
+        padding: 0;
+    }
 
 }
 
