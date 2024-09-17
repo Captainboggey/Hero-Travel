@@ -61,6 +61,7 @@ nav {
     padding: 135px;
     text-align: center;
     padding-top: 100px;
+    text-align: center;
 
 
 
@@ -70,17 +71,17 @@ nav {
 .banner ul {
     list-style: none;
     display: flex;
-    /* gap: 20px; */
-    border: 0;
+    gap: 20px;
+
     background: rgba(255, 255, 255, 0.3);
     justify-content: center;
     padding: 16px;
-    gap: 20px;
-    /* width: 800px;
-   height: 84px; */
+
+
     align-items: flex-start;
-    justify-content: center;
+
     border-radius: 16px;
+
 
 }
 
@@ -89,28 +90,39 @@ nav {
 
 .banner ul li button {
     border-radius: 8px;
-    /* padding: 16px; */
+    padding: 16px;
     background: rgb(255, 255, 255);
+    width: 174px;
+
+    height: 52px;
+
 
 }
 
 .banner ul li {
 
     background: rgb(255, 255, 255);
-    padding: 10px 20px;
-    width: 150px;
+    /* padding: 10px 20px 0 20px; */
+    border: 0;
     border-radius: 8px;
-    height: 25px;
+    width: 174px;
+    height: 45px;
+    padding-top: 5px;
+
+}
+
+.banner ul li input {
+    border: none;
 }
 
 .banner ul li ::placeholder {
     color: rgba(19, 19, 24, 0.5);
-
     font-family: Mulish;
-
     font-size: 16px;
-
     font-weight: 400;
+    padding: 10px;
+    text-align: center;
+
 
 }
 
@@ -419,36 +431,27 @@ nav {
     padding: 15px;
     height: 284px;
     box-sizing: border-box;
-
     border: 1px solid rgba(251, 181, 99, 0.2);
-
     border-radius: 16px;
-
-
     background: rgba(251, 181, 99, 0.05);
+
 }
 
 .service {
     width: 573px;
     height: 284px;
     border: 1px solid rgba(41, 206, 246, 0.2);
-
     border-radius: 16px;
-
-
     background: rgba(41, 206, 246, 0.05);
+    padding-left: 5px;
 }
 
 .price {
 
     width: 573px;
     height: 284px;
-
     border: 1px solid rgba(233, 68, 68, 0.2);
-
     border-radius: 16px;
-
-
     background: rgba(233, 68, 68, 0.05);
     padding: 15px;
     justify-content: center;
@@ -492,13 +495,12 @@ nav {
 .deal-img-1 {
     background-image: url("/Images/Group\ 39.png");
     width: 1170px;
-
     height: 500px;
     background-repeat: no-repeat;
     margin: 0 auto;
     padding-top: 50px;
-    
-
+    display: flex;
+    justify-content: right;
 }
 
 .deal-des-one {
@@ -508,13 +510,9 @@ nav {
     border-radius: 16px;
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);
-   
     align-content: center;
-    padding-left: 50px;
-    margin-left: 500px;
-
-
-
+    padding-left: 15px;
+    margin-right: 20px;
 
 }
 
@@ -559,31 +557,321 @@ nav {
     font-size: 20px;
     font-weight: 800;
 }
-.deal-img-2{
+
+.deal-img-2 {
     background-image: url("/Images/Group\ 40.png");
     width: 1170px;
-
     height: 500px;
     background-repeat: no-repeat;
     margin: 0 auto;
     padding-top: 50px;
+    display: flex;
+    justify-content: left;
 
 }
-.deal-des-two{
+
+.deal-des-two {
     width: 579px;
     height: 389px;
     border: 2px solid rgb(255, 255, 255);
     border-radius: 16px;
     backdrop-filter: blur(5px);
     background: rgba(255, 255, 255, 0.8);
-    /* text-align: left; */
     align-content: center;
-    padding-left: 50px;
-    margin-left: 50px;
+    padding-left: 15px;
+
+    margin-left: 20px;
+}
+
+.see {
+    text-align: center;
+}
+
+.see button {
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 20px;
+
+    font-weight: 800;
+    padding: 20px;
+    border: 0;
 
 }
 
+
 /* deal- */
+
+/* simple+ */
+.simple {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding-top: 100px;
+}
+
+.simple-cont-1 {
+    align-content: center;
+    justify-items: left;
+}
+
+.simple-cont-1 h1 {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 40px;
+
+    font-weight: 800;
+}
+
+.simple-cont-1 p {
+    color: rgb(90, 90, 93);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.simple-cont-1 ul {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+}
+
+.simple-cont-1 ul li {}
+
+.simple-cont-1 button {
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 20px;
+
+    font-weight: 800;
+    border-radius: 8px;
+    background: rgb(255, 84, 0);
+    padding: 14px 42px;
+    border: 0;
+    margin-top: 30px;
+}
+
+.simple-cont-2 {
+    background-image: url("/Images/Group\ 40089.png");
+    width: 610px;
+
+    height: 424px;
+    align-content: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 24px;
+
+    font-weight: 700;
+}
+
+/* simple- */
+
+/* newsletter+ */
+.newsletter {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 25px;
+    padding: 20px;
+}
+
+
+.from {
+    width: 474px;
+    padding: 40px;
+    height: 422px;
+    justify-items: left;
+    box-sizing: border-box;
+
+    border: 1px solid rgb(255, 84, 0);
+
+    border-radius: 16px;
+}
+
+.from h1 {
+    color: rgb(19, 19, 24);
+
+    font-family: Mulish;
+
+    font-size: 24px;
+
+    font-weight: 800;
+
+}
+
+.from p {
+    color: rgb(90, 90, 93);
+
+    font-family: Mulish;
+
+    font-size: 16px;
+
+    font-weight: 400;
+}
+
+.from hr {
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    width: 90%;
+}
+
+
+
+.input input {
+    width: 393px;
+    height: 52px;
+    margin-top: 15px;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    color: rgba(19, 19, 24, 0.3);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 5px 8px;
+    border: 0;
+}
+
+.from button {
+    margin-top: 15px;
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 20px;
+
+    font-weight: 800;
+
+    background: rgb(255, 84, 0);
+    width: 410px;
+
+    border: 0;
+    height: 52px;
+}
+
+
+
+
+.form-img {
+    background-image: url("/Images/Rectangle\ 8\ \(1\).png");
+    background-repeat: no-repeat;
+    width: 672px;
+    height: 422px;
+
+
+}
+
+.offer {
+    transform: rotate(-19.63deg);
+    width: 324px;
+    height: 120px;
+    padding-left: 300px;
+    padding-top: 335px;
+
+}
+
+.offer-content {
+    
+    border-radius: 16px;
+    background: rgb(255, 84, 0);
+    text-align: center;
+    align-content: center;
+    
+
+}
+
+.p-1 {
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 24px;
+
+    font-weight: 400;
+}
+
+.p-2 {
+    color: rgb(255, 255, 255);
+
+    font-family: Mulish;
+
+    font-size: 32px;
+
+    font-weight: 800;
+}
+
+
+/* newsletter- */
+
+/* footer+ */
+.footer-head div{
+    padding-top: 150px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background: rgba(19, 19, 24, 0.05);
+   
+}
+.footer-head{
+   justify-items: center;
+}
+.footer-head p{
+    text-align: center;
+}
+.social-links{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.footer-head p{
+    color: rgb(90, 90, 93);
+
+font-family: Mulish;
+
+font-size: 16px;
+
+font-weight: 400;
+text-align: center;
+}
+.copy hr{
+    margin-top: 50px;
+    border: 1px solid rgba(19, 19, 24, 0.1);
+    width: 50%;
+}
+.copy p{
+   text-align: center;
+   padding-bottom: 100px;
+   color: rgb(19, 19, 24);
+
+font-family: Inter;
+
+font-size: 16px;
+
+font-weight: 300;
+}
+
+/* footer- */
 
 
 
@@ -622,15 +910,15 @@ nav {
         height: 500px;
         margin: 0;
         padding: 0px;
-        align-items: center;
-
 
     }
 
     .banner ul {
         flex-direction: column;
         align-items: center;
-
+        width: 287px;
+        margin-left: 40px;
+        height: 288px;
 
 
     }
@@ -638,6 +926,7 @@ nav {
     .banner {
         padding: 0;
         gap: 0;
+        align-content: center;
 
     }
 
@@ -701,7 +990,7 @@ nav {
     .destination-img {
         display: flex;
         flex-direction: column;
-        /
+
     }
 
     .maldives {
@@ -775,7 +1064,127 @@ nav {
     .price {
         width: 335px;
         height: 289px;
+        padding: 5px;
+    }
+
+    .deal-container {
+        /* flex-direction: column; */
+        /* padding-left: 20px; */
+        justify-content: center;
+        margin-left: 28px;
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .deal-img-1 {
+        margin: 0;
+        width: 335px;
+        height: 500px;
+        border: 2px solid rgb(255, 255, 255);
+        justify-content: center;
+        padding-top: 160px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 16px;
+
+
+
+
+    }
+
+    .deal-des-one {
+        padding: 10px;
+        margin: 0;
+        width: 303px;
+        justify-content: center;
+        height: 297px;
+        align-content: center;
+
+
+
+
+    }
+
+    .deal-img-2 {
+        margin: 0;
+        width: 335px;
+        height: 500px;
+        border: 2px solid rgb(255, 255, 255);
+        justify-content: center;
+        padding-top: 160px;
+        padding-left: 5px;
+        padding-right: 5px;
+        border-radius: 16px;
+
+
+    }
+
+    .deal-des-two {
+        padding: 10px;
+        margin: 0;
+        width: 303px;
+        /* justify-content: center; */
+        height: 297px;
+        align-content: center;
+
+
+    }
+
+    .simple {
+        flex-direction: column;
+    }
+
+    .simple-cont-2 {
+        width: 100%;
+        border-radius: 16px;
+    }
+
+    .simple-cont-2 h1 {
+        font-size: 20px;
+
+        font-weight: 700;
+    }
+
+    .newsletter {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .from {
+        width: 335px;
+
+        height: 450px; 
+    }
+
+    .input input {
+        width: 242px;
+
+        height: 52px;
+
+    }
+    .from button{
+        width: 242px;
+
+        height: 52px;
+    }
+    .form-img{
+        width: 335px;
+        border-radius: 16px;
+       height: 450px;
+    }
+    
+    .offer{
         padding: 0;
+       
+       /* padding-top: 200px;
+       padding-right: 150px; */
+       
+       /* padding-top: 200px; */
+       margin-top: 260px;
+       margin-left: 5px;
+
     }
 
 }
